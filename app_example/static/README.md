@@ -1,7 +1,5 @@
 # Vue Editor
 
-## [Demo](http://vue-editor.beblog.cn/)
-
 ## Install
 
 ```shell

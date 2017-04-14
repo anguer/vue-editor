@@ -13,7 +13,7 @@
     name: 'app',
     data() {
       return {
-        value: '# This is parent data.'
+        value: '# [Fork me on Github](https://github.com/anguer/vue-editor)'
       }
     },
     methods: {
@@ -38,7 +38,7 @@
 
   .vmd-container {
     margin: 0 auto;
-    width: 800px;
+    padding: 2rem;
     height: 600px;
   }
 </style>
