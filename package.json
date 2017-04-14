@@ -11,6 +11,7 @@
     "marked"
   ],
   "main": "dist/vue-editor.js",
+  "unpkg": "dist/vue-editor.js",
   "files": [
     "dist",
     "src"
