@@ -1,10 +1,11 @@
 /**
  * Created by anguer on 2017/4/11.
  */
-import VueMarkdownEditor from './components/main.vue';
+import VueEditor from './components/main.vue';
 
 /* istanbul ignore next */
-VueMarkdownEditor.install = function(Vue) {
+VueEditor.install = function(Vue) {
+  // 配置键盘快捷键
   Vue.config.keyCodes.a = 65;
   Vue.config.keyCodes.b = 66;
   Vue.config.keyCodes.c = 67;
@@ -17,7 +18,7 @@ VueMarkdownEditor.install = function(Vue) {
   Vue.config.keyCodes.q = 81;
   Vue.config.keyCodes.t = 84;
   Vue.config.keyCodes.u = 85;
-  Vue.component(VueMarkdownEditor.name, VueMarkdownEditor);
+  Vue.component(VueEditor.name, VueEditor);
 };
 
-export default VueMarkdownEditor;
+export default VueEditor;
