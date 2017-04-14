@@ -22,7 +22,7 @@ new Vue({
 })
 ```
 ```html
-// index.html
+<!--index.html-->
 <!DOCTYPE html>
 <html>
 <head>
