@@ -23,3 +23,5 @@ test/unit/coverage
 .vscode
 /Gruntfile.js
 /secretWebServer.json
+*.tar
+/app_example/
