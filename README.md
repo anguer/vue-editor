@@ -5,6 +5,10 @@
 ```
 npm install vue-md-editor --save
 ```
+or
+```
+<script src="https://unpkg.com/vue-md-editor/dist/vue-editor.min.js"></script>
+```
 
 ## Usage
 
