@@ -3,24 +3,24 @@
   <div class="vmd" ref="vmd">
     <div class="vmd-header" ref="vmdHeader">
       <div class="vmd-btn-group">
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrong"><i class="vf-bold"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addItalic"><i class="vf-italic"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addHeading"><i class="vf-header"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrikethrough"><i class="vf-strikethrough"></i>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrong" title="Ctrl + B"><i class="vf-bold"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addItalic" title="Ctrl + I"><i class="vf-italic"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addHeading" title="Ctrl + H"><i class="vf-header"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrikethrough" title="Ctrl + D"><i class="vf-strikethrough"></i>
         </button>
       </div>
       <div class="vmd-btn-group">
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addUl"><i class="vf-list-ul"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addOl"><i class="vf-list-ol"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addTable"><i class="vf-table"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addUl" title="Ctrl + U"><i class="vf-list-ul"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addOl" title="Ctrl + O"><i class="vf-list-ol"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addTable" title="Ctrl + T"><i class="vf-table"></i></button>
       </div>
       <div class="vmd-btn-group">
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addLink"><i class="vf-chain"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addImage"><i class="vf-image"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addLink" title="Ctrl + A"><i class="vf-chain"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addImage" title="Ctrl + P"><i class="vf-image"></i></button>
       </div>
       <div class="vmd-btn-group">
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addCode"><i class="vf-code"></i></button>
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addQuote"><i class="vf-quote-left"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addCode" title="Ctrl + C"><i class="vf-code"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addQuote" title="Ctrl + Q"><i class="vf-quote-left"></i></button>
       </div>
       <div class="vmd-btn-group">
         <button type="button" class="vmd-btn vmd-btn-default" @click="preview"><i :class="previewClass"></i></button>
