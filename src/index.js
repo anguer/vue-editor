@@ -1,5 +1,6 @@
 /**
  * Created by anguer on 2017/4/11.
+ * This is plugin entry.
  */
 import VueEditor from './components/main.vue';
 
