@@ -1,5 +1,4 @@
 .*
-*.md
 *.yml
 build/
 node_modules/
