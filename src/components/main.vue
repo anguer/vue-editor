@@ -3,10 +3,17 @@
   <div class="vmd" ref="vmd">
     <div class="vmd-header" ref="vmdHeader">
       <div class="vmd-btn-group">
+<<<<<<< HEAD
         <button type="button" class="vmd-btn vmd-btn-default" @click="addStrong" title="Ctrl + B"><i class="vf-bold"></i></button>
         <button type="button" class="vmd-btn vmd-btn-default" @click="addItalic" title="Ctrl + I"><i class="vf-italic"></i></button>
         <button type="button" class="vmd-btn vmd-btn-default" @click="addHeading" title="Ctrl + H"><i class="vf-header"></i></button>
         <button type="button" class="vmd-btn vmd-btn-default" @click="addStrikethrough" title="Ctrl + D"><i class="vf-strikethrough"></i>
+=======
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrong" title="Ctrl+B"><i class="vf-bold"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addItalic"><i class="vf-italic"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addHeading"><i class="vf-header"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrikethrough"><i class="vf-strikethrough"></i>
+>>>>>>> local
         </button>
       </div>
       <div class="vmd-btn-group">
