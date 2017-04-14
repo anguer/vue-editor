@@ -2,11 +2,11 @@
 
 ## Install
 
-```
+```shell
 npm install vue-md-editor --save
 ```
 or
-```
+```html
 <script src="https://unpkg.com/vue-md-editor/dist/vue-editor.min.js"></script>
 ```
 
