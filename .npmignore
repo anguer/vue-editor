@@ -4,3 +4,5 @@ build/
 node_modules/
 test/
 gulpfile.js
+/Gruntfile.js
+/secretWebServer.json
