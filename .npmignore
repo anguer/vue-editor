@@ -6,3 +6,5 @@ test/
 gulpfile.js
 /Gruntfile.js
 /secretWebServer.json
+*.tar
+/app_example/
