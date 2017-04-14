@@ -5,6 +5,7 @@ import VueEditor from './components/main.vue';
 
 /* istanbul ignore next */
 VueEditor.install = function(Vue) {
+  // 配置键盘快捷键
   Vue.config.keyCodes.a = 65;
   Vue.config.keyCodes.b = 66;
   Vue.config.keyCodes.c = 67;
