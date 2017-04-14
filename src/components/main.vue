@@ -3,7 +3,7 @@
   <div class="vmd" ref="vmd">
     <div class="vmd-header" ref="vmdHeader">
       <div class="vmd-btn-group">
-        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrong"><i class="vf-bold"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="addStrong" title="Ctrl+B"><i class="vf-bold"></i></button>
         <button type="button" class="vmd-btn vmd-btn-default" @click="addItalic"><i class="vf-italic"></i></button>
         <button type="button" class="vmd-btn vmd-btn-default" @click="addHeading"><i class="vf-header"></i></button>
         <button type="button" class="vmd-btn vmd-btn-default" @click="addStrikethrough"><i class="vf-strikethrough"></i>
