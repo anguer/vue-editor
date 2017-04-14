@@ -18,6 +18,8 @@ VueEditor.install = function(Vue) {
   Vue.config.keyCodes.q = 81;
   Vue.config.keyCodes.t = 84;
   Vue.config.keyCodes.u = 85;
+
+  // 添加组件
   Vue.component(VueEditor.name, VueEditor);
 };
 
