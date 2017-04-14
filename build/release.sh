@@ -1,3 +1,6 @@
+git checkout master
+git merge local
+
 #!/usr/bin/env sh
 set -e
 echo "Enter release version: "
