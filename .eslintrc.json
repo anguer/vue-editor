@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true
+  },
+  "extends": "eslint:recommended",
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    // allow paren-less arrow functions
+    "arrow-parens": 0,
+    // allow async-await
+    "generator-star-spacing": 0,
+    // 要求或禁止使用分号而不是 ASI
+    "semi": 0,
+    // 禁用行尾空格
+    "no-trailing-spaces": 0,
+    // 强制在 function的左括号之前使用一致的空格
+    "space-before-function-paren": 0,
+    // 要求或禁止末尾逗号
+    "comma-dangle": 0,
+    "no-console": 0
+  }
+}
