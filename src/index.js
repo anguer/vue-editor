@@ -4,8 +4,7 @@
  */
 import VueEditor from './components/main.vue';
 
-/* istanbul ignore next */
-VueEditor.install = function(Vue) {
+const install = function (Vue, opts = {}) {
   // 配置键盘快捷键
   Vue.config.keyCodes.a = 65;
   Vue.config.keyCodes.b = 66;
@@ -24,4 +23,9 @@ VueEditor.install = function(Vue) {
   Vue.component(VueEditor.name, VueEditor);
 };
 
-export default VueEditor;
+// auto install
+if (typeof window !== 'undefined' && window.Vue) {
+  install(window.Vue);
+}
+
+export default Object.assign(VueEditor, {install});   // eslint-disable-line no-undef
