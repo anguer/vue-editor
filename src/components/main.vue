@@ -78,7 +78,7 @@
     smartLists: true,
     smartypants: false,
     highlight: function (code) {
-      return hljs.highlightAuto(code).value
+      return hljs ? hljs.highlightAuto(code).value : code
     }
   });
 

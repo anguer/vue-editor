@@ -1,6 +1,7 @@
 # Vue Editor
 
 ## [Demo](http://vue-editor.beblog.cn/)
+or [Edit in JSFiddle](https://jsfiddle.net/anguer/mb5kxrfb/)
 
 ## Install
 

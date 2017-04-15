@@ -2,7 +2,11 @@
  * Created by anguer on 2017/4/11.
  * This is plugin entry.
  */
-import VueEditor from './components/main.vue';
+import VueEditor from './components/index';
+
+const components = [
+  VueEditor
+];
 
 const install = function (Vue, opts = {}) {
   // 配置键盘快捷键
@@ -20,12 +24,14 @@ const install = function (Vue, opts = {}) {
   Vue.config.keyCodes.u = 85;
 
   // 添加组件
-  Vue.component(VueEditor.name, VueEditor);
+  components.map(component => {
+    Vue.component(component.name, component);
+  });
 };
 
-// auto install
+/* istanbul ignore if */
 if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-export default Object.assign(VueEditor, {install});   // eslint-disable-line no-undef
+export default {install, VueEditor}; // eslint-disable-line no-undef
