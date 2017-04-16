@@ -47,5 +47,5 @@ new Vue({
 ```
 
 ## Dependencies
-- marked
-- [highlight.js]
+- [marked](https://github.com/chjj/marked)
+- [highlight.js](https://github.com/isagalaev/highlight.js)
