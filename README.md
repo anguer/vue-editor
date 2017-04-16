@@ -1,4 +1,4 @@
-# Vue Editor
+# Vue Editor   [![VueEditor](https://img.shields.io/npm/v/vue-md-editor.svg?style=flat-square)](https://www.npmjs.org/package/vue-md-editor) [![NPM downloads](http://img.shields.io/npm/dm/vue-md-editor.svg?style=flat-square)](https://npmjs.org/package/vue-md-editor)
 
 ## [Demo](http://vue-editor.beblog.cn/)
 or [Edit in JSFiddle](https://jsfiddle.net/mb5kxrfb/6/)
