@@ -45,3 +45,7 @@ new Vue({
 </body>
 </html>
 ```
+
+## Dependencies
+- marked
+- [highlight.js]
