@@ -1,6 +1,6 @@
 # Vue Editor
 
-[![VueEditor](https://img.shields.io/npm/v/vue-md-editor.svg)](https://www.npmjs.org/package/vue-md-editor) [![NPM downloads](http://img.shields.io/npm/dm/vue-md-editor.svg)](https://npmjs.org/package/vue-md-editor) ![JS gzip size](http://img.badgesize.io/https://unpkg.com/vue-md-editor/dist/vue-editor.min.js?compression=gzip&label=gzip%20size:%20JS)
+[![VueEditor](https://img.shields.io/npm/v/vue-md-editor.svg)](https://www.npmjs.org/package/vue-md-editor) [![NPM downloads](http://img.shields.io/npm/dm/vue-md-editor.svg)](https://npmjs.org/package/vue-md-editor) [![JS gzip size](http://img.badgesize.io/https://unpkg.com/vue-md-editor/dist/vue-editor.min.js?compression=gzip&label=gzip%20size:%20JS)](https://unpkg.com/vue-md-editor@1.2.1/dist/vue-editor.min.js)
 
 ## [Demo](http://vue-editor.beblog.cn/)
 or [Edit in JSFiddle](https://jsfiddle.net/mb5kxrfb/6/)
