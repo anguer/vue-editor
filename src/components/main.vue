@@ -62,7 +62,7 @@
   import hljs from 'highlight.js'
 
   // 引入依赖样式库
-  import 'highlight.js/styles/atom-one-light.css'
+//  import 'highlight.js/styles/atom-one-light.css'
   import '../styles/markdown.css'
   import '../styles/iconfont.css'
 

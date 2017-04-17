@@ -49,6 +49,7 @@ new Vue({
 ## Dependencies
 - [marked](https://github.com/chjj/marked)
 - [highlight.js](https://github.com/isagalaev/highlight.js)
+- If you want's to use [highlight.js style](https://cdnjs.com/libraries/highlight.js/).
 
 ## Keyboards
 Markdown | Result | Shortcut

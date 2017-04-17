@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 
-import VueEditor from '../src/index'
+import VueEditor from '../dist/vue-editor';//'../src/index'
 Vue.use(VueEditor);
 
 Vue.config.productionTip = false;

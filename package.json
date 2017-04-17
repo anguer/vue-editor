@@ -21,7 +21,7 @@
     "dist:style": "gulp --gulpfile build/build-style.js",
     "dist:dev": "webpack --config build/webpack.dist.dev.config.js",
     "dist:prod": "webpack --config build/webpack.dist.prod.config.js",
-    "build": "npm run dist:style && npm run dist:dev && npm run dist:prod",
+    "build": "npm run dist:dev && npm run dist:prod",
     "build:example": "node build/build-example.js",
     "lint": "eslint --fix --ext .js,.vue src",
     "pub": "sh build/release.sh",
