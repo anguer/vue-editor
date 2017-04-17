@@ -24,6 +24,7 @@
       </div>
       <div class="vmd-btn-group">
         <button type="button" class="vmd-btn vmd-btn-default" @click="preview"><i :class="previewClass"></i></button>
+        <button type="button" class="vmd-btn vmd-btn-default" @click="sanitizeHtml">HTML</button>
       </div>
     </div>
     <div class="vmd-body" ref="vmdBody">
@@ -69,14 +70,6 @@
 
   // 配置marked环境
   marked.setOptions({
-    renderer: new marked.Renderer(),
-    gfm: true,
-    tables: true,
-    breaks: false,
-    pedantic: false,
-    sanitize: true,
-    smartLists: true,
-    smartypants: false,
     highlight: function (code) {
       return hljs ? hljs.highlightAuto(code).value : code
     }
@@ -119,7 +112,8 @@
         vmdPreview: null,
         vmdInput: '# hello',
         lang: 'zh',
-        isPreview: true
+        isPreview: true,
+        isSanitize: false
       }
     },
     computed: {
@@ -130,7 +124,7 @@
        * 编译成markdown文档
        */
       compiledMarkdown() {
-        return marked(this.$props.value || this.vmdInput, {sanitize: true})
+        return marked(this.$props.value || this.vmdInput, {sanitize: this.isSanitize})
       },
       vmdEditorStyle() {
         return this.isPreview ? null : {
@@ -167,6 +161,9 @@
       },
       vmdInactive() {
         this.$refs.vmd.classList.remove('active')
+      },
+      sanitizeHtml() {
+        this.isSanitize = !this.isSanitize;
       },
       /**
        * 同步滚动
