@@ -53,7 +53,7 @@ new Vue({
 ## Keyboards
 Markdown | Result | Shortcut
 ---|---|---
-<span>**text**</span> | **text** | Ctrl + B
+`**text**` | **text** | Ctrl + B
 `_text_` | _text_ | Ctrl + I
 `### text` | Heading | Ctrl + H
 `~~text~~` | ~~text~~ | Ctrl + D
