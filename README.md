@@ -58,7 +58,7 @@ Markdown | Result | Shortcut
 \### text | Heading | Ctrl + H
 \~\~text\~\~ | ~~text~~ | Ctrl + D
 \- text | List | Ctrl + U
-\1. text | List| Ctrl + O
+<span>1. text</span> | List| Ctrl + O
 \[Demo](http://vue-editor.beblog.cn) | [Demo](http://vue-editor.beblog.cn) | Ctrl + A
 \!\[Image](https://cn.vuejs.org/images/logo.png "Title") | Image | Ctrl + P
 \`text` | `text` | Ctrl + C
