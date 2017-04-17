@@ -53,12 +53,12 @@ new Vue({
 ## Keyboards
 Markdown | Result | Shortcut
 ---|---|---
-\**text\** | **text** | Ctrl + B
+\*\*text\*\* | **text** | Ctrl + B
 \_text_ | _text_ | Ctrl + I
 \### text | Heading | Ctrl + H
-\~~text~~ | ~~text~~ | Ctrl + D
+\~\~text\~\~ | ~~text~~ | Ctrl + D
 \- text | List | Ctrl + U
-\1. text | List| Ctrl + O
+1. text | List| Ctrl + O
 \[Demo](http://vue-editor.beblog.cn) | [Demo](http://vue-editor.beblog.cn) | Ctrl + A
 \!\[Image](https://cn.vuejs.org/images/logo.png "Title") | Image | Ctrl + P
 \`text` | `text` | Ctrl + C
