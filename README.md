@@ -40,7 +40,11 @@ new Vue({
 </head>
 <body>
   <div id="app">
+<<<<<<< HEAD
     <vue-editor v-model="value"></vue-editor>
+=======
+    <vue-editor v-model="value"></vue-editor>
+>>>>>>> local
   </div>
 </body>
 </html>
