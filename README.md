@@ -40,7 +40,7 @@ new Vue({
 </head>
 <body>
   <div id="app">
-    <vue-editor ng-model="value"></vue-editor>
+    <vue-editor v-model="value"></vue-editor>
   </div>
 </body>
 </html>

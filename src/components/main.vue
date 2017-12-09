@@ -148,12 +148,12 @@
       this.vmdEditor.focus()
     },
     beforeDestroy() {
-      // 移除DOM组件
-      this.__removeDom();
       // 移除滚动监听事件
       window.removeEventListener('resize', this.vmdResize, false);
       this.vmdEditor.removeEventListener('scroll', this.vmdSyncScrolling, false);
       this.vmdPreview.removeEventListener('scroll', this.vmdSyncScrolling, false);
+      // 移除DOM组件
+      this.__removeDom();
     },
     methods: {
       vmdActive() {
