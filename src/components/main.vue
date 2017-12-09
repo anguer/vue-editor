@@ -152,6 +152,7 @@
       window.removeEventListener('resize', this.vmdResize, false);
       this.vmdEditor.removeEventListener('scroll', this.vmdSyncScrolling, false);
       this.vmdPreview.removeEventListener('scroll', this.vmdSyncScrolling, false);
+
       // 移除DOM组件
       this.__removeDom();
     },
