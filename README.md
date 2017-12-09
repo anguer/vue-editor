@@ -40,7 +40,7 @@ new Vue({
 </head>
 <body>
   <div id="app">
-    <vue-editor v-model="value"></vue-editor>
+    <vue-editor v-model="value"></vue-editor>
   </div>
 </body>
 </html>
@@ -64,3 +64,6 @@ Markdown | Result | Shortcut
 \!\[Image](https://cn.vuejs.org/images/logo.png "Title") | Image | Ctrl + P
 \`text` | `text` | Ctrl + C
 \> text | Blockquote | Ctrl + Q
+
+## Issues
+修复 [Issue #5](https://github.com/anguer/vue-editor/issues/5)
